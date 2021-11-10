@@ -26,15 +26,15 @@ exports.get = (req, res, next) => {
 };
 
 exports.patch = (req, res, next) => {
-    const status_code = Number(req.body.status_code);
+    const code = Number(req.body.code);
 
-    if(!status_code) {
+    if(!code) {
         res.status(200).send({
             message: "Mock de response, atualizado!"
         });
-    } else if(status_code >= 200 && status_code <= 500){
-        res.status(status_code).send({
-            message: `Mock de response com código ${status_code}, atualizado!`
+    } else if(code >= 200 && code <= 500){
+        res.status(code).send({
+            message: `Mock de response com código ${code}, atualizado!`
         });
     } else {
         res.status(400).send({

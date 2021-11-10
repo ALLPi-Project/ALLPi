@@ -1,6 +1,6 @@
 {
   "name": "ALLPi",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Uma ferramenta para poder ajudar desenvolvedores",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "debug": "^4.1.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "helmet": "^4.6.0",
     "http": "0.0.0",
     "twitter": "^1.7.1"
   },

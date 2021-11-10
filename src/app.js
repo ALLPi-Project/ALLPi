@@ -9,8 +9,8 @@ const app = express();
 const indexRoute = require('./routes/index-route');
 const twitterRoute = require('./routes/twitter-route');
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.json({limit: '50mb', extended: true}))
+app.use(bodyParser.urlencoded({limit: '50mb', extended: true}))
 
 app.use("/", indexRoute);
 app.use("/twitter", twitterRoute);
