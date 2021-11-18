@@ -11,6 +11,7 @@ const twitterRoute = require('./routes/twitter-route');
 
 app.use(bodyParser.json({limit: '50mb', extended: true}))
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}))
+app.use(express.static(__dirname + '/public'));
 
 app.use("/", indexRoute);
 app.use("/twitter", twitterRoute);

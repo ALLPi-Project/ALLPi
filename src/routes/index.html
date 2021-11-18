@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>ALLPi</title>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-breezed.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            ALLPi
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-01.jpg" alt="">
+                <div class="text-content">
+                  <h3>Bem-Vindo ao ALLPi</h3>
+                  <h5>Sua API de integrações</h5>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-02.jpg" alt="">
+                <div class="text-content">
+                  <h3>Facilidade</h3>
+                  <h5>Encontre os serviços para que você possa integrar com mais agilidade e facilidade</h5>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-03.jpg" alt="">
+                <div class="text-content">
+                  <h3>Ajude na causa!</h3>
+                  <h5>Feita por devs para devs! <3</h5>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+        </div>
+    </div>
+    <div class="scroll-down scroll-to-section"><a href="#about"><i class="fa fa-arrow-down"></i></a></div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** About Area Starts ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Serviços Disponíveis</h6>
+                            <h2>Twitter</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/service-item-01.png" alt="">
+                                    <h4>Online</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <p>Para compartilhar informações no Twitter da forma mais ampla possível, é oferecido a empresas, desenvolvedores e usuários acesso programático a dados do Twitter através de APIs (interfaces de programação de aplicativo).
+                        <br><br>Os dados do Twitter têm um caráter único de compartilhamento em relação a outras mídias sociais porque refletem as informações que os usuários escolheram compartilhar publicamente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1>Documentação</h1>
+            </div>
+            
+            <!-- ***** Endpoint Starts ***** -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h2>/twitter/:assunto</h2>
+                            <h6>GET</h6>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <div class="service-item">
+                                    <h4><u>Response Sucesso - 200</u></h4>
+                                    <h4>{ <br> "statuses":[
+                                        <br>{
+                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;"created_at": "Thu Nov 18 00:47:26 +0000 2021",
+                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;"id": 1461133913569386500,
+                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;"id_str": "1461133913569386497",
+                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;"text": "RT Senior DevOps Engineer at Supermetrics..."
+                                            <br>}
+                                    <br>]<br>
+                                    }</h4>
+                                </div>
+                                <div class="service-item">
+                                    <h4><u>Response Error - 400</u></h4>
+                                    <h4>{ <br> &nbsp;&nbsp;&nbsp;&nbsp;"message": "Error message" <br> }</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <p>Permite que você consiga UM objeto de um tweet baseado no assunto da requisição
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Endpoint Ends ***** -->
+
+            <!-- ***** Endpoint Starts ***** -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h2>/twitter/:id</h2>
+                            <h6>PATCH</h6>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <div class="service-item">
+                                    <h4><u>Request</u></h4>
+                                    <h4>{ <br> &nbsp;&nbsp;&nbsp;&nbsp;"code": 200 // Opcional <br> } </h4>
+                                </div>
+                                <div class="service-item">
+                                    <h4><u>Response Sucesso - 200</u></h4>
+                                    <h4>{ <br> &nbsp;&nbsp;&nbsp;&nbsp;"message": "Mock de response, atualizado!" <br> }</h4>
+                                </div>
+                                <div class="service-item">
+                                    <h4><u>Response Error - 400</u></h4>
+                                    <h4>{ <br> &nbsp;&nbsp;&nbsp;&nbsp;"message": "Error message" <br> }</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <p>Permite que você receba uma resposta simulada de atualização de um tweet, voltando o código de status passado na request que você quiser :)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Endpoint Ends ***** -->
+
+            <!-- ***** Endpoint Starts ***** -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h2>/twitter/:id</h2>
+                            <h6>DELETE</h6>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <div class="service-item">
+                                    <h4><u>Request</u></h4>
+                                    <h4>{ <br> &nbsp;&nbsp;&nbsp;&nbsp;"code": 200 // Opcional <br> } </h4>
+                                </div>
+                                <div class="service-item">
+                                    <h4><u>Response Sucesso - 200</u></h4>
+                                    <h4>{ <br> &nbsp;&nbsp;&nbsp;&nbsp;"message": "Mock de response, deletado!" <br> }</h4>
+                                </div>
+                                <div class="service-item">
+                                    <h4><u>Response Error - 400</u></h4>
+                                    <h4>{ <br> &nbsp;&nbsp;&nbsp;&nbsp;"message": "Error message" <br> }</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <p>Permite que você receba uma resposta simulada ao tentar deletar um tweet, voltando o código de status passado na request que você quiser :)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Endpoint Ends ***** -->
+        </div>
+    </section>
+    <!-- ***** About Area Ends ***** -->
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Fale Conosco</h6>
+                            <h2>Fique à vontade para contatar a gente em caso de dúvida!</h2>
+                        </div>
+                        <ul class="contact-info">
+                            <li><img src="assets/images/contact-info-01.png" alt="">(11) 13658-4789</li>
+                            <li><img src="assets/images/contact-info-02.png" alt="">contacto@allpi.com</li>
+                            <li><img src="assets/images/contact-info-03.png" alt="">www.allpi.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="get">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Seu nome completo *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="phone" type="text" id="phone" placeholder="Seu telefone" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="email" id="email" placeholder="Seu e-mail *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="subject" type="text" id="subject" placeholder="Assunto">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Deixe sua mensagem" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button-icon">Enviar mensagem <i class="fa fa-arrow-right"></i></button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                    <div class="left-text-content">
+                        <p>Copyright &copy; 2021 ALLPi Co., Ltd. 
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="right-text-content">
+                            <ul class="social-icons">
+                                <li><p>Nos siga</p></li>
+                                <li><a rel="nofollow" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                <li><a rel="nofollow" href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                <li><a rel="nofollow" href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+</html>

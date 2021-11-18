@@ -2,12 +2,10 @@
 
 const express = require('express');
 const router = express.Router();
+const path = require('path');
 
 router.get('/', (req, res, next) => {
-    res.status(200).send({
-        "title": "ALLPi em desenvolvimento",
-        "version": "0.0.1"
-    });
+    res.status(200).sendFile(path.join(__dirname+'/index.html'));
 });
 
 module.exports = router;
