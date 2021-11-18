@@ -42,3 +42,21 @@ exports.patch = (req, res, next) => {
         });
     }
 };
+
+exports.delete = (req, res, next) => {
+    const code = Number(req.body.code);
+
+    if(!code) {
+        res.status(200).send({
+            message: "Mock de response, deletado!"
+        });
+    } else if(code >= 200 && code <= 500){
+        res.status(code).send({
+            message: `Mock de response com código ${code}, deletado!`
+        });
+    } else {
+        res.status(400).send({
+            message: `Erro no mock de response, código inválido`
+        });
+    }
+};
